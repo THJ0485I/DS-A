@@ -39,3 +39,62 @@ print(student)
 
 lengths = [int(x) for x in input().split()]
 print(length)
+
+############################################
+
+listA = [2, 3, 5, 7, 11, 13, 17]
+print(listA)
+
+for listA in range (int(len(listA))):
+    print(listA, end="")
+print()
+
+listA.append(input("Enter a prime number: "))
+print(int(listA))
+
+#################################### 
+
+#sorting
+listb = ["Wallace", "Ishan", "Jayrius", "Sofie", "jayrius", "Ishaan"]
+listb.sort(reverse = True)
+print(listb)
+
+###################################3
+# list
+lista = ["24", "17", "14", "12", "29"]
+
+# 2nd largest and 2nd smallest
+lista.sort()
+temp = lista[0]
+for num in lista:
+    if num != temp:
+        print(num)
+        break
+
+lista.sort(reverse=True)
+temp = lista[0]
+for num in lista:
+    if num != temp:
+        print(num)
+        break
+
+# average of all even numbers
+total = 0
+numofeven = 0
+for num in lista:
+    if num % 2 == 0:
+        total += num
+        numofeven += 1
+
+lista.sort()
+print(lista)
+
+#################################
+
+# Exercise 1
+
+
+
+
+
+
